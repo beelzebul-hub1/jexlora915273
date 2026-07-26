@@ -134,7 +134,7 @@ def export_points_loop():
             # send to website
             try:
                 requests.post(
-                    "https://render-1-ethy.onrender.com/",
+                    "https://render-1-ethy.onrender.com/api/update",
                     json=data,
                     timeout=10
                 )
